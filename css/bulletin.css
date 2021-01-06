@@ -1,0 +1,139 @@
+
+
+.bulletin_news a{
+    position: absolute;
+    left: 200px;
+    top: 60px;
+    padding-left: 20px;
+    color: #000;
+    font-size: 20px;
+    border-left: 2px solid #c40000;
+}
+
+/* 快报主体模块制作 */
+.bulletin_box{
+    padding-top: 40px;
+}
+
+.w {
+    width: 1200px;
+    
+}
+.news_box{
+    float: left;
+    width: 800px;
+    background-color: #fff;
+    margin-right: 10px;
+    /* 清除浮动 */
+    overflow: hidden;
+    clear: both;
+}
+
+.bulletin_box{
+    background-color: #f6f6f6;
+    overflow: hidden;
+    clear: both;
+}
+
+.new_hd{
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.new_nav{
+    height: 36px;
+    margin-left: 25px;
+    border-bottom: 1px solid #ededed;
+}
+
+.new_nav ul li{
+    float: left;
+    height: 36px;
+    line-height: 36px;
+}
+
+.new_nav ul li a{
+    padding: 10px;
+}
+
+.new_nav ul li:first-child{
+   border-bottom: 4px solid #f11e13;
+}
+
+.new_nav ul li:first-child a{
+    color: #f11e13;
+}
+
+.new_content ul li{
+    display: block;
+    height: 210px;
+    padding: 40px 0;
+    margin: 0 20px;
+    border-bottom: 1px solid #ededed;
+}
+
+.content_img{
+    float: left;
+    margin-right: 20px;
+}
+
+.content_text{
+    position: relative;
+    float: left;
+    width: 490px;
+    height: 180px;
+}
+
+.content_text a h2{
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.content_text>h5{
+    font-weight: 400;
+    font-size: 14px;
+    color: #999;
+}
+
+.read{
+    position: absolute;
+    left: 0px;
+    bottom: 30px;
+}
+
+.read i{
+    display: inline-block;
+    width: 18px;
+    height: 14px;
+    margin-right: 5px;
+    background: url(../images/eyes.png) no-repeat;
+}
+.read span{
+    font-size: 14px;
+    color: #999;
+}
+
+/* 优享公告制作 */
+
+.youxiang_bulletin{
+    float: left;
+    height: 600px;
+    line-height: 600px;
+    text-align: center;
+    width: 390px;
+    font-size: 20px;
+    color: #000;
+    background-color: #fff;
+}
+
+.bulletin_hd{
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.new_hd span:last-child{
+    float: right;
+    padding-right: 315px;
+}

@@ -1,0 +1,257 @@
+.left_box{
+    position: relative;
+}
+
+.second_kill{
+    position: absolute;
+    left: 185px;
+    top: 20px;
+    border-left: 1px solid #b1191a;
+    padding-left: 14px;
+    padding-top: 2px;
+}
+
+.sk_list ul li{
+    float: left;
+}
+
+.sk_list ul li a{
+    display: block;
+    line-height: 46px;
+    padding: 0 29px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.sk_list ul li:first-child a{
+    background-color: #c81623;
+    color: #fff;
+}
+
+/* 列表主体模块制作 */
+.sk_container{
+    background-color: #f6f6f6;
+    margin-bottom: 15px;
+}
+.sk_hd {
+    background: url(../images/sk_bg.png) no-repeat;
+    height: 145px;
+    text-align: center;
+}
+
+.sk_hd img{
+    margin-top: 15px;
+}
+
+.sk_bd{
+    -webkit-column-count: 4; /* Chrome, Safari, Opera */
+    -moz-column-count: 4; /* Firefox */
+    column-count: 4;
+    -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 20px; /* Firefox */
+    column-gap: 20px;
+    overflow: hidden;
+    margin: 0 15px;
+}
+.sk_bd ul li{
+    width: 285px;
+    height: 370px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.sk_goods{
+    padding:5px 20px;
+    border-bottom: 1px solid #ededed;
+}
+.sk_goods img{
+    width: 210px;
+    height: 210px;
+    margin-bottom: 10px;
+}
+
+.sk_goods h5{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+
+.sk_goods h4{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: #e60012;
+}
+
+
+.price{
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.price h2{
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #e01222;
+}
+
+.price h4{
+    display: inline-block;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+
+.bar{
+    margin-left: 10px;
+    display: inline-block;
+    width: 80px;
+    height: 8px;
+    line-height: 7px;
+    border-radius: 8px;
+    background-color: #e6e6e6;
+}
+
+.bar_in{
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    border-radius: 8px;
+    background-color: #df0021;
+}
+
+.sk_bd ul li:nth-child(2) .bar_in{
+    width: 77%;
+}
+
+.sk_bd ul li:nth-child(3) .bar_in{
+    width: 28%;
+}
+
+.sk_bd ul li:nth-child(4) .bar_in{
+    width: 23%;
+}
+
+.sk_bd ul li:nth-child(5) .bar_in{
+    width: 45%;
+}
+
+.sk_bd ul li:nth-child(6) .bar_in{
+    width: 18%;
+}
+
+.sk_bd ul li:nth-child(7) .bar_in{
+    width: 28%;
+}
+
+.sk_bd ul li:nth-child(8) .bar_in{
+    width: 20%;
+}
+
+.sk_bd ul li:nth-child(9) .bar_in{
+    width: 19%;
+}
+
+.sk_bd ul li:nth-child(10) .bar_in{
+    width: 23%;
+}
+
+.sk_bd ul li:nth-child(11) .bar_in{
+    width: 55%;
+}
+
+.sk_bd ul li:nth-child(12) .bar_in{
+    width: 88%;
+}
+.buy{
+    display: inline-block;
+}
+.buy button{
+    padding: 7px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #df0021;
+}
+
+/* 固定盒子的制作 */
+
+.top a {
+    display: inline-block;
+    width: 53px;
+    height: 53px;
+    line-height: 60px;
+    color: #fff;
+    background-color: #e01d22;
+    margin-bottom: 6px;
+}
+
+.top a:hover{
+    background-color: #d01318;
+}
+.top a::before{
+    position: absolute;
+    top: -15px;
+    left: 20px;
+    content: '\e904';
+    font-family: 'icomoon';
+
+}
+.phone{
+    width: 53px;
+    height: 56px;
+    background-color: #e01d22;
+}
+.phone>img{
+    padding-top: 5px;
+}
+
+.phone:hover{
+    background-color: #d01318;
+}
+
+aside{
+    position: fixed;
+    right: 0;
+    top: 200px;
+    text-align: center;
+}
+
+.phone:hover .erweima img{
+    display: block;
+}
+
+.phone:hover .erweima i{
+    display: block;
+}
+
+.erweima img{
+    display: none;
+    position: fixed;
+    right: 70px;
+    top: 250px;
+    border: 3px solid #ff1943;
+    width: 100px;
+    height: 100px;
+}
+
+/* 创建三角 */
+.erweima i{
+    display: none;
+    position: fixed;
+    right: 55px;
+    top: 280px;
+    width: 0;
+    height: 0;
+    border: 8px solid transparent;
+    border-left-color: #ff1943;
+}

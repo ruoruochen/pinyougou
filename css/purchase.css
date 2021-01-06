@@ -1,0 +1,224 @@
+.search input{
+    width: 375px;
+}
+
+.search button:nth-of-type(1){
+    background-color: #474e5c;
+}
+
+/* 购买主体模块制作 */
+.purchase_box{
+    overflow: hidden;
+    height: 550px;
+    background-color: #e4393c;
+    margin-bottom: 20px;
+}
+
+.white_box{
+    height: 500px;
+    width: 1180px;
+    margin: 50px auto 0;
+    background-color: #fff;
+}
+
+.goods_img{
+    float: left;
+    margin-top: 22px;
+    width: 362px;
+    height: 429px;
+    text-align: center;
+}
+
+.good_intro{
+    float: left;
+    overflow: hidden;
+    margin-top: 22px;
+    margin-left: 30px;
+    margin-right: 20px;
+    width: 545px;
+    height: 429px;
+}
+
+.goods_store{
+    float: left;
+    margin-top: 22px;
+    width: 214px;
+    height: 429px;
+}
+
+.goods_img>img{
+    overflow: hidden;
+    width: 350px;
+    height: 350px;
+    margin-bottom: 5px;
+    border: 1px solid #e3e4e5;
+}
+
+.goods_img ul li {
+    float: left;
+    width: 66px;
+    height: 66px;
+    margin-right: 5px;
+    padding-left: 5px;
+}
+.goods_img ul li img{
+    overflow: hidden;
+    width: 66px;
+    height: 66px;
+}
+
+
+.now_price{
+    float: left;
+}
+
+.diliver{
+    float: left;
+    width: 1px;
+    height: 40px;
+    margin-top: 15px;
+    border-left: 1px dotted #f0f0f0;
+}
+
+.btn_toshop{
+    float: left;
+}
+
+.good_intro h2{
+    font-size: 22px;
+    font-weight: 400;
+    color: #333;
+}
+
+.good_intro>h5{
+    margin: 16px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #e1323f;
+}
+
+.good_intro>span{
+    margin: 0 5px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #e1323f;
+}
+
+.intro_price{
+    margin-top: 85px;
+    height: 65px;
+    background-color: #e1323f;
+    border-radius: 15px;
+}
+
+.now_price{
+    width: 380px;
+}
+
+.now_price span:first-child{
+    height: 65px;
+    line-height: 65px;
+    padding-left: 12px;
+    font-size: 22px;
+    color: #fff;
+}
+
+.now_price span:last-child{
+    padding-left: 12px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.btn_toshop{
+    text-align: center;
+    width: 150px;
+}
+
+.btn_toshop a{
+    height: 65px;
+    line-height: 65px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.intro_com{
+    margin-top: 35px;
+    height: 55px;
+}
+
+.coms_rate{
+    float: left;
+}
+
+.coms_diliver{
+    float: left;
+    width: 1px;
+    height: 50px;
+    margin-top: 8px;
+    margin-left: 15px;
+    margin-right: 20px;
+    border-left: 1px dotted #ccc;
+}
+
+.coms_pos{
+    float: left;
+}
+
+.coms_rate>h5{
+    font-weight: 400;
+    font-size: 12px;
+    color: #a0a0a0;
+}
+
+.coms_rate>h3{
+    font-weight: 400;
+    font-size: 18px;
+    color: #e1323f;
+}
+
+.coms_pos ul li{
+    float: left;
+    padding: 5px 10px;
+    margin:15px 10px;
+    background-color: #f2f2f2;
+}
+
+.goods_store{
+    text-align: center;
+}
+
+.goods_store>img{
+    width: 150px;
+    margin-bottom:20px;
+}
+
+.goods_store>h3{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+
+.enter_store{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    color: #e21c19;
+    border: 2px solid #e1323f;
+    border-radius: 7px;
+}
+
+.enter_store a{
+    color: #e21c19;
+}
+.enter_store::before{
+    content: '\e907';
+    font-family: 'icomoon';
+    padding-right: 6px;
+}
+
+.click_img{
+    border: 1px solid #e3575e;
+}

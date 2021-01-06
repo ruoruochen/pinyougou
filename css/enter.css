@@ -1,0 +1,165 @@
+/* 头部的制作 */
+.header{
+    position: relative;
+    background-color: #ffffff;
+    padding-top: 20px;
+    height: 84px;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: left;
+    padding-left: 15px;
+}
+
+.style_logotext h1{
+    color: #c40000;
+    font-size: 30px;
+}
+
+.welcome{
+    position: absolute;
+    top: 40px;
+    left: 210px;
+    font-size: 22px;
+    color: #111;
+}
+
+/* 登录内容模块的制作 */
+.enter_box{
+    height: 475px;
+    margin: 0 auto;
+    background-color: #feb477;
+
+}
+
+.my_w{
+    overflow: hidden;
+    margin-top: 10px;
+    width: 1200px;
+    height: 420px;
+    margin-left: 120px;
+    background: url(../upload/enter_bg.jpg) no-repeat;
+}
+
+.enter_user{
+    margin-top: 20px;
+    margin-left: 640px;
+    text-align: center;
+    width: 350px;
+    height: 350px;
+    background-color: #fff;
+}
+
+.enter_user h2{
+    color: #e4393c;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.alert{
+    height: 32px;
+    line-height: 32px;
+    color: #999;
+    font-size: 12px;
+    background-color: #fff8f0;
+}
+
+.enter_user input{
+    float: left;
+    margin-left: 10px;
+    padding: 4px 10px;
+    height: 35px;
+    width: 230px;
+    border: 1px solid #ededed;
+}
+
+.img_user{
+    float: left;
+    width: 35px;
+    height: 35px;
+}
+
+.enter_username{
+    padding-left: 25px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    clear: both;
+    height: 35px;
+}
+
+.enter_username i{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background: url(../images/me_enter.png);
+}
+
+.enter_password{
+    padding-left: 25px;
+    height: 35px;
+    overflow: hidden;
+    clear: both;
+}
+
+.enter_password i{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background: url(../images/pwd_enter.png);
+}
+
+.img_pwd{
+    float: left;
+    width: 35px;
+    height: 35px;
+}
+
+.enter_user a h5{
+    text-align: right;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-right: 45px;
+}
+
+
+input[type="submit"]{
+    float: none;
+    display:block;
+    margin-top: 30px;
+    margin-left: 60px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #e4393c;
+}
+
+.wrong_tel{
+    background: url(../images/error.png) no-repeat;
+}
+
+.right_tel{
+    background: url(../images/right.png) no-repeat;
+}
+
+.right_pwd{
+    background: url(../images/right.png) no-repeat;
+}
+
+.wrong_pwd{
+    background: url(../images/error.png) no-repeat;
+}
+
+.enter_username span{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+}
+
+.enter_password span{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+}

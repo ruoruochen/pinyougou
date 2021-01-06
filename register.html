@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>个人注册</title>
+  <!-- 引入favicon图标 -->
+  <link rel="shortcut icon" href="favicon.ico" />
+  <!-- 引入初始化样式文件 -->
+  <link rel="stylesheet" href="css/base.css">
+  <!-- 引入注册页面的样式文件 -->
+  <link rel="stylesheet" href="css/register.css">
+
+</head>
+
+<body>
+  <div class="w">
+    <header>
+      <div class="logo">
+        <a href="index.html" title="优享网商城">
+          <div class="fl">
+            <img src="images/logo.png" alt="">
+          </div>
+          <div class="fr">
+            <h1 class="style_logotext">优享网</h1>
+            <span>youxiang.com</span>
+          </div>
+        </a>
+      </div>
+    </header>
+    <div class="registerarea">
+      <div class="reg_hd">
+        <ul>
+          <li>注册新用户</li>
+          <li>我有账号，去<a href="enter.html">登录</a></li>
+        </ul>
+      </div>
+      <div class="reg_bigbox">
+        <form action="">
+          <ul>
+            <li>
+              <label for="">手机号：</label><input type="tel" name="" id="tel" value=""
+                oninput="value=value.replace(/[^\d]/g,'')" placeholder="请输入您的手机号" onchange="checktel(this.value)"
+                maxlength="11"><span id="tel_span">请输入11位手机号
+              </span>
+            </li>
+            <li><label for="">短信验证码：</label><input type="text" name="" id="" value="" maxlength="6"></li>
+            <li><label for="">登录密码：</label><input type="password" name="" id="pwd1" value=""
+                oninput="value=value.replace(/[\W]/g,'')" placeholder="请输入6-16位数字和字母的组合"
+                onchange="checkpwd1(this.value)" maxlength="16"><span id="pwd1_span">请输入6-16位数字和字母的组合
+              </span></li>
+            <li><label for="">确认密码：</label><input type="password" name="" id="pwd2" value=""
+                oninput="value=value.replace(/[\W]/g,'')" onchange="checkpwd2()" maxlength="16"
+                placeholder="请重新输入密码"><span id="pwd2_span">请重新输入密码
+              </span></li>
+            <li><input type="checkbox" id="" checked="checked" /><label for=""> 同意协议并注册 <a
+                  href="#">《优享网用户协议》</a></label></li>
+            <li><input type="submit" name="" id="" value="免费注册"></li>
+          </ul>
+        </form>
+      </div>
+
+    </div>
+
+    <footer>
+      <div class="mod_copyright">
+        <div class="links">
+          <a href="#">关于我们</a>|
+          <a href="#">联系我们</a>|
+          <a href="#">联系客服</a>|
+          <a href="#">商家入驻</a>|
+          <a href="#">营销中心</a>|
+          <a href="#">手机品优购</a>|
+          <a href="#">友情链接</a>|
+          <a href="#">销售联盟</a>|
+          <a href="#">优享网社区</a>|
+          <a href="#">优享网公益</a>|
+          <a href="#">English Site</a>|
+          <a href="#">Contact U</a>
+        </div>
+
+        <div class="copyright">
+          地址：xxxxxxxxxxxxxxxxxxxxxxxx 邮编：xxxxx 电话：xxxxxxxxxx 邮箱: xxxxxxxx <br>
+          京ICP备0800000号京公网安备1110
+        </div>
+
+
+      </div>
+    </footer>
+  </div>
+</body>
+
+<!-- 引入js -->
+<script type="text/javascript" src="js/register.js"></script>
+
+</html>

@@ -1,0 +1,278 @@
+/* 购买主体模块制作 */
+.purchase_box{
+    overflow: hidden;
+    height: 600px;
+    background-color: #e4393c;
+    margin-bottom: 20px;
+}
+
+.white_box{
+    height: 600px;
+    width: 1180px;
+    margin: 50px auto 0;
+    background-color: #fff;
+}
+
+.goods_img{
+    float: left;
+    margin-top: 22px;
+    width: 362px;
+    height: 429px;
+    text-align: center;
+}
+
+.preview_img{
+    position: relative;
+}
+
+.mask{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 250px;
+    background-color: #FEDE4F;
+    opacity: .5;
+    border: 1px solid #ccc;
+    cursor: move;
+}
+
+.big{
+    display: none;
+    position: absolute;
+    left: 410px;
+    top: 0;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.big img{
+    position: absolute;
+    top: 0;
+    left: 0;
+   width: 200%;
+}
+
+.good_intro{
+    float: left;
+    overflow: hidden;
+    margin-top: 22px;
+    margin-left: 30px;
+    margin-right: 20px;
+    width: 545px;
+    height: 429px;
+}
+
+.goods_store{
+    float: left;
+    margin-top: 22px;
+    width: 214px;
+    height: 429px;
+}
+
+.goods_img>img{
+    overflow: hidden;
+    width: 350px;
+    height: 350px;
+    margin-bottom: 5px;
+    border: 1px solid #e3e4e5;
+}
+
+.goods_img ul li {
+    float: left;
+    width: 66px;
+    height: 66px;
+    margin-right: 5px;
+    padding-left: 5px;
+}
+.goods_img ul li img{
+    overflow: hidden;
+    width: 66px;
+    height: 66px;
+}
+
+
+.now_price{
+    float: left;
+}
+
+.good_intro h2{
+    font-size: 22px;
+    font-weight: 400;
+    color: #333;
+}
+
+.good_intro>h5{
+    margin: 16px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #e1323f;
+}
+
+
+.intro_price{
+    margin-top: 15px;
+    height: 50px;
+    background-color: #f3f3f3;
+    border-radius: 15px;
+}
+
+.now_price{
+    width: 380px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+}
+
+.now_price span:first-child{
+    padding-right: 20px;
+    font-size: 14px;
+    color: #999;
+}
+
+.now_price span:last-child{
+    font-size: 22px;
+    color: #e4393c;
+}
+
+.all_spead{
+    float: left;
+    width: 100px;
+}
+
+.all_spead h5,.all_sale h5{
+    font-weight: 400;
+    font-size: 14px;
+    color: #999;
+    padding-top: 5px;
+}
+
+.all_spead span,.all_sale span{
+    font-size: 14px;
+    color: #005aa0;
+}
+
+.intro_com{
+    margin-top: 35px;
+    height: 55px;
+}
+
+.coms_rate{
+    float: left;
+}
+
+.coms_diliver{
+    float: left;
+    width: 1px;
+    height: 50px;
+    margin-top: 8px;
+    margin-left: 15px;
+    margin-right: 20px;
+    border-left: 1px dotted #ccc;
+}
+
+.coms_pos{
+    float: left;
+}
+
+.coms_rate>h5{
+    font-weight: 400;
+    font-size: 12px;
+    color: #a0a0a0;
+}
+
+.coms_rate>h3{
+    font-weight: 400;
+    font-size: 18px;
+    color: #e1323f;
+}
+
+.coms_pos ul li{
+    float: left;
+    padding: 5px 10px;
+    margin:15px 10px;
+    background-color: #f2f2f2;
+}
+
+.intro_choose{
+    margin-top: 15px;
+    overflow: hidden;
+    clear: both;
+}
+
+.choose_left{
+    float: left;
+    color: #999;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.choose_right{
+    float: left;
+}
+
+.choose_right ul li{
+    float: left;
+    padding: 3px;
+    margin-right: 10px;
+    border: 1px solid #ededed;
+}
+
+.choose_right ul li:hover{
+    cursor: pointer;
+}
+
+.buy_toshopcut{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.buy_toshopcut button{
+    background-color: #df3033;
+    padding: 5px 10px;
+    margin-right: 40px;
+    color: #fff;
+    font-size: 18px;
+}
+.goods_store{
+    text-align: center;
+}
+
+.goods_store>img{
+    width: 150px;
+    margin-bottom:10px;
+}
+
+.goods_store>h3{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #999;
+}
+
+.more_goods img{
+    width: 160px;
+    height: 160px;
+}
+.more_goods h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.more_goods span{
+    color: #c81623;
+}
+
+.more_goods ul li{
+    margin-bottom: 10px;
+}
+.click_img{
+    border: 1px solid #e3575e !important;
+}
